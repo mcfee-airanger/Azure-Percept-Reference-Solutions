@@ -453,7 +453,7 @@
                                     },
                                     {
                                         "name": "VIDEO_INPUT_FOLDER_ON_DEVICE",
-                                        "value": "/home/localedgeuser/samples/input"
+                                        "value": "/home/nealmcfee/samples/input"
                                     },
                                     {
                                         "name": "VIDEO_OUTPUT_FOLDER_ON_DEVICE",
