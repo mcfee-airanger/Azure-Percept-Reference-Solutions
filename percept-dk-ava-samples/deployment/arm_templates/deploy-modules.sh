@@ -35,9 +35,9 @@ error() {
     echo "$(date +"%Y-%m-%d %T") [ERROR]"
 }
 
-exitWithError() {
-    exit 1
-}
+#exitWithError() {
+#    exit 1
+#}
 
 # download the deployment manifest file
 echo "$(info) downloading $DEPLOYMENT_MANIFEST_TEMPLATE_URL\n"
