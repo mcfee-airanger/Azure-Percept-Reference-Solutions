@@ -611,7 +611,7 @@
                                         "MSDeploy"
                                     ],
                                     "properties": {
-                                        "JWT_TOKEN": "[reference('deploy-video-analyzer-resources').outputs.jwtToken.value]",
+                                        "JWT_TOKEN": "[reference('deploy-video-analyzer-resources').outputs.provisioningToken.value]",
                                         "CLIENT_API_ENDPOINT_URL": "[reference('deploy-video-analyzer-resources').outputs.clientEndpointUrl.value]",
                                         "VIDEO_NAME": "sample-cvr-video-sink",
                                         "IOTHUB_CONNECTION_STRING": "[reference('deploy-iot-resources').outputs.connectionString.value]",
