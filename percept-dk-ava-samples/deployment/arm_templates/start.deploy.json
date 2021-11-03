@@ -612,7 +612,7 @@
                                     ],
                                     "properties": {
                                         "JWT_TOKEN": "[reference('deploy-video-analyzer-resources').outputs.provisioningToken.value]",
-                                        "CLIENT_API_ENDPOINT_URL": "[reference('deploy-video-analyzer-resources').outputs.clientEndpointUrl.value]",
+                                        "CLIENT_API_ENDPOINT_URL": "https://f258d99fd7874faebe193a74db155c5b.api.eastus2.videoanalyzer.azure.net",
                                         "VIDEO_NAME": "sample-cvr-video-sink",
                                         "IOTHUB_CONNECTION_STRING": "[reference('deploy-iot-resources').outputs.connectionString.value]",
                                         "DEVICE_NAME": "[variables('deviceName')]",
