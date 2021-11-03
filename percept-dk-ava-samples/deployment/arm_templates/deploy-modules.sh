@@ -23,9 +23,9 @@
 #######################################################################################################
 
 # automatically install any extensions
-#az config set extension.use_dynamic_install=yes_without_prompt
+az config set extension.use_dynamic_install=yes_without_prompt
 
-az extension add --name azure-cli-iot-ext
+#az extension add --name azure-cli-iot-ext
 
 # Define helper function for logging
 info() {
@@ -37,9 +37,9 @@ error() {
     echo "$(date +"%Y-%m-%d %T") [ERROR]"
 }
 
-#exitWithError() {
-#    exit 1
-#}
+exitWithError() {
+    exit 1
+}
 
 # download the deployment manifest file
 echo "$(info) downloading $DEPLOYMENT_MANIFEST_TEMPLATE_URL\n"
