@@ -23,7 +23,9 @@
 #######################################################################################################
 
 # automatically install any extensions
-az config set extension.use_dynamic_install=yes_without_prompt
+#az config set extension.use_dynamic_install=yes_without_prompt
+
+az extension add --name azure-cli-iot-ext
 
 # Define helper function for logging
 info() {
